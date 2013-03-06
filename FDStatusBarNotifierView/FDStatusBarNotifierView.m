@@ -31,7 +31,7 @@ NSTimeInterval const kTimeOnScreenDefault       = 2.0;
         self.messageLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, ([UIScreen mainScreen].bounds.size.width - 20), 20)];
         
         self.messageLabel.textColor = [UIColor whiteColor];
-        self.messageLabel.backgroundColor = [UIColor blackColor];
+        self.messageLabel.backgroundColor = [UIColor clearColor];
         self.messageLabel.textAlignment = UITextAlignmentCenter;
         self.messageLabel.font = [UIFont boldSystemFontOfSize:12];
         self.shouldHideOnTap = NO;
